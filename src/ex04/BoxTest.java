@@ -7,7 +7,7 @@ int height;
 double getVome() {       return (double) width*height*length;   }
 }
 
-public class BoxTest {
+ class BoxTest {
     public static void main(String[] args) {
         Box b;
         b = new Box();
