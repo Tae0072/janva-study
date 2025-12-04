@@ -17,8 +17,8 @@ public class Burger {
 
     Burger(String 재료1, int price){
         this.재료1 = 재료1;
-        재료2 = "양상추";
-        재료3 = "빵";
+        this. 재료2 = "양상추";
+        this.재료3 = "빵";
         this.price = price;
     }
 
@@ -41,5 +41,6 @@ public class Burger {
 
         Burger b7 = new Burger("새우", 4000);
         Burger b8 = new Burger("한우불고기", 8000);
+        System.out.println(b1);
     }
 }
