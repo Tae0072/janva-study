@@ -7,13 +7,13 @@ public class Add2 {
         Scanner sc = new Scanner(System.in);
         int x, y, sum;
 
-        System.out.println("첫 번째 숫자를 입력하시오: ");
+        System.out.print("첫 번째 숫자를 입력하시오: ");
         x = sc.nextInt();
 
-        System.out.println("두 번쨰 숫자를 입력하시오: ");
+        System.out.print("두 번쨰 숫자를 입력하시오: ");
         y = sc.nextInt();
 
         sum = x + y;
-        System.out.println(sum);
+        System.out.println("두 수를 합친 갑은: "+sum);
     }
 }

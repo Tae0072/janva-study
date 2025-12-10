@@ -12,11 +12,11 @@ public class People {
         this.weight = weight;
     }
 //public 어느 공간에서도 열 수 있도록 만든다.(모든 파일에서 접근 가능)
-    //상태변경
+    //상태변경 메서드
     public void 밥먹기(){
         weight = weight+2;
     }
-    //상태확인
+    //상태확인 메서드
     public int getWeight(){
         return weight;
     }

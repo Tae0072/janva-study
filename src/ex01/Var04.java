@@ -10,6 +10,9 @@ class Dog{
 
 public class Var04 {
     public static void main(String[] args) {
+
         System.out.println(Dog.age);
+        System.out.println(Dog.name);
+        System.out.println(Dog.color);
     }
 }
