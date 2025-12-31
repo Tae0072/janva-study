@@ -16,7 +16,7 @@ public class Cal01 {
     static void divide(int j,int k) {
         System.out.println("j/k="+(j/k));
     }
-
+    
     public static void main(String[] args) {
         add(3, 5);
         // add 앞에 Cal01을 붙여야 하는데 같은 파일 안에서는 생략이 가능.
